@@ -1,8 +1,8 @@
 
 const noteRoutes = require('./note_routes');
-module.exports = function(app, db) {
+module.exports = function(app) {
 
-  noteRoutes(app, db);
+  noteRoutes(app);
     console.log(app)
   // Other route groups could go here, in the future
 };  
